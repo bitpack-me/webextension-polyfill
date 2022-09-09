@@ -1,3 +1,4 @@
+/* eslint-disable */
 /* @@package_name - v@@version - @@timestamp */
 /* -*- Mode: indent-tabs-mode: nil; js-indent-level: 2 -*- */
 /* vim: set sts=2 sw=2 et tw=80: */
