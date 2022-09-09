@@ -7,7 +7,7 @@
 "use strict";
 
 if (!globalThis.chrome?.runtime?.id) {
-  throw new Error("This script should only be loaded in a browser extension.");
+  console.warn("This script should only be loaded in a browser extension.");
 }
 
 if (typeof globalThis.browser === "undefined" || Object.getPrototypeOf(globalThis.browser) !== Object.prototype) {
